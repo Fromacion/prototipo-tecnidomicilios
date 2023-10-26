@@ -8,6 +8,9 @@ html{
     background-color: #20b2ab85;
 }
 
+
+/* SECCION ENCABEZADO */
+
 header{
     text-align: center;
     background-image: linear-gradient(to right, hsla(0, 0%, 0%, 0.325), hsla(250, 14%, 25%, 0.415)), url("../img/tecnico.png");
@@ -66,7 +69,7 @@ nav a{
     padding: 5px 10px;
     background-color: rgb(62, 153, 138);
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 15px;
     margin: 5px;
 
 }
@@ -86,66 +89,138 @@ nav a:active{
 }
 
 
-.form-login {
+
+
+
+/* seccion login */
+.login{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.formulario{
+    margin: 50px;
+}
+
+.formulario h1 {
+    justify-content: center;
+    display: grid;
+    color: rgb(4, 59, 50);
+    text-align: center;
+    font-size: 60px;
+    
+    margin-bottom: 15px;
+    border-bottom: 2px solid black;
+}
+
+.img-contac img{
+    height: 450px;
+}
+
+
+.cont-formulario{
+    display: inline-flex;
+    padding: 0px 70px 0px 70px; 
+}
+
+
+input{
     width: 400px;
-    height: 300px;
+    height: 40px;
     background-color: rgba(62, 153, 138, 0.34);
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 50px;
-    box-shadow: 7px 13px 37px #000;
-    padding: 20px 30px;
-    border-top: 4px solid #017bab;
-    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 15px;
+    border-radius: 50px;
+    border: 2px solid black;
+    /* margin-top: 40px; */
+    /* margin-bottom: 5px; */
+    padding: 15px;
 
 }
 
-.form-login h1{
-    text-align: center;
-    height: 50px;
-    border-bottom: 1px solid black;
-    font-size: 40px;
-    margin-bottom: 15px;
+.icono-usuario{
+    width: 30px;
+    height: 30px;
+    margin: 5px 5px 0 0;
+}
+.username{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0   
+}
+
+.icono-password{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin: 5px 5px 0 0;
+}
+
+.password{   
+    display: flex; 
+    justify-content: center ;
+    margin: 40px 0 5px 0;
     
 }
 
-.controls {
-    width: 100%;
-    border: 1px solid #017bab;
-    margin-bottom: 15px;
-    padding: 10px 0px;
-    background: #2125;
-    font-size: 14px;
-    font-weight: bold;
-}
 
-.buttons{
-    width: 100%;
-    height: 30px;
-    background: rgb(0, 100, 83);
-    border: 1 rgba(100, 30, 50, .5);
-    color: whitesmoke;
-    margin-bottom: 16px;
-}
-
-.form-login p{
-    height: 40px;
-    text-align: center;
-}
-
-.form-login a{
-    color: white;
+.btn-dato{
+    background-color: rgb(62, 153, 138);
+    color: rgba(44, 5, 5, 0.752);
     text-decoration: none;
-    font-size: 14px;
+    padding: 5px 10px;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 40px;
 }
 
-.form-login a:hover{
-    text-decoration: underline; 
-
+.btn-dato:hover{
+    background-color: #20b2ab85;
+    color: rgb(255, 255, 255);
+    border: 2px double #1f928d;
+    transition: .3s;
+    font-size: large;
 }
+
+.btn-dato:active{
+    background-color: rgba(137, 43, 226, 0.646);
+    color: rgb(62, 3, 62);
+    border: 2px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: 230px;
+}
+
+a:hover{
+    color: rgba(92, 7, 92, 0.408);
+    text-decoration: underline;
+    
+}
+
+a:active{
+    color: blue;
+}
+
+
+
+
+
+
+
+/* SECCION FOOTER */
 
 .contenedor-footer {
-    
+    padding-top: 30px;
     text-align: center;
     text-wrap: balance;
     border-top: 0.2mm solid rgba(78, 77, 77, 0.105);

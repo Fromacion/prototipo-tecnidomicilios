@@ -40,6 +40,7 @@ header{
     width: 100%;
     min-width: max-content;
     padding-top: 30px;
+    margin-bottom: 10px;
 }
 
 nav{
@@ -78,6 +79,7 @@ a{
     padding: 5px 10px;
     background-color: rgb(62, 153, 138);
     font-weight: bolder;
+    font-size: 15px;
 }
 
 nav a:hover{
@@ -98,7 +100,8 @@ nav a:active{
 /* SECCION INICIO */
 
 .inicio-contenedor{
-    padding: 40px 0;    
+    padding: 40px 0;
+   
 }
 
 
@@ -328,8 +331,12 @@ nav a:active{
     text-align: center;
 }
 
+.img-contac img {
+    height: 600px;
+}
 .img-contac{
-    height: 500px;
+    
+    height: 200px;
     padding: 5px 0 10px 0;
     
 }
