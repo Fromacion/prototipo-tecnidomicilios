@@ -7,18 +7,22 @@
 html{
     scroll-behavior: smooth;    
     background-color: #20b2ab85;
+    
 }
 
 body{
     font-family: 'Open Sans', 'sans-serif';
-    min-width: 400px;
+    
 }
 
 main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     width: 100%;
     max-width: 90%;
     margin: auto;
-    overflow: hidden;
+    overflow: auto;
     
 }
 
