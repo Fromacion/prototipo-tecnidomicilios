@@ -10,8 +10,7 @@ html{
     scroll-behavior: smooth;    
     background-color: #20b2ab85;
     min-width: auto;
-    
-    
+   
 }
 
 body{
@@ -53,11 +52,6 @@ header{
     margin-bottom: 10px;
 }
 
-nav{
-    text-align: center;
-    margin: 15px;
-    min-width: 412px;
-}
 
 
 h1 {
@@ -74,6 +68,13 @@ h2 {
     font-family: "Libre Baskerville";
     color: aliceblue;    
 }
+
+nav{
+    text-align: center;
+    margin: 15px;
+    min-width: 412px;
+}
+
 
 nav ul, li{
     display: inline-block;
@@ -357,15 +358,14 @@ nav a:active{
 .img-contac img {
     min-width: auto;
     
-    height: 500px;
+    height: 300px;
     /* display: inline-flex; */
     
        
 }
 
 
-.titulo-contac{
-    display: block;
+.titulo-contac h1{
     color: rgb(4, 59, 50);
     text-align: center;
     font-size: 60px;
@@ -464,6 +464,7 @@ textarea{
     /* max-width: 412px; */
     text-align: center;
     margin-top: 70px;
+    margin-bottom: 20px;
     background-position-y: bottom;
 }
 
