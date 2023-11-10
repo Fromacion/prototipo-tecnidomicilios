@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnidomicilios S.A.S</title>
+    <link rel="shortcut icon" href="img/icono.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/solicitar_servicios.css" />
+    <script src="solicitar_servicio.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <header>
+       
+        <div class="carrusel">
+            <img src="img\reparador-colocando-pisos-laminados-casa_493343-29466.jpg" alt="Imagen 1">
+            <img src="img\electricista.jpg" alt="Imagen 2">
+            <img src="img\pintando.jpg" alt="Imagen 3">
+            <img src="img\electricista2.jpg" alt="Imagen 4">
+
+            <button class="button" id="izquierda">&#10094;</button>
+            <button class="button" id="derecha">&#10095;</button>
+        </div>
+        <h2>Solicita tu servicio</h2>
+    </header>
+  
+
+    <div class="content">
+
+        <form action="">
+            
+           
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+            </div>
+            <div class="form-group">
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" required>
+            </div>
+            <div class="form-group">
+                <label for="servicio">Servicio:</label>
+                <select id="servicio" name="servicio" required>
+                    <option value="">Seleccione un servicio</option>
+                    <option value="reparacion">Reparación</option>
+                    <option value="mantenimiento">Mantenimiento</option>
+                    <option value="diagnostico">Diagnóstico</option>
+                </select>
+            <div>
+                <button class="button" id="solicitar">solicitar servicio</button>
+            </div>
+            </div>            
+        </form>  
+    </div>
+    <div class="clearfix"></div>
+    <div class="img">
+    <img src="img\TECNIDOMICILIOS S.A.S.png" alt="logo">
+    </div>
+    <div class="clearfix"></div>
+   
+    <footer>
+        <div class="contenedor-footer" id="contacto">
+            <p>
+                <strong>Tel: </strong> 3406758 <br /><strong>Email: </strong>
+                tecnidimiciliossas@gmail.com <br />
+                <strong>Direccion: </strong> Cr 9 # 124-12 <br />
+                <strong>&copy; Tecnidomicilios S.A.S Todos los derechos reservados.</strong>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
