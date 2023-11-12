@@ -48,7 +48,7 @@ header{
     width: auto;
     min-width: auto;
     max-width: 100%;
-    padding-top: 30px;
+    padding-top: 50px;
     margin-bottom: 10px;
 }
 
@@ -251,6 +251,7 @@ nav a:active{
 }
 
 
+
 .btn{
     background-color: rgb(62, 153, 138);
     color: rgba(44, 5, 5, 0.752);
@@ -324,6 +325,7 @@ nav a:active{
     box-shadow: 2px 5px 10px 0 rgba(238, 130, 238, 0.375);
     
 }
+
 
 
 
@@ -446,7 +448,7 @@ textarea{
     color: rgb(255, 255, 255);
     border: 2px double #1f928d;
     transition: .7s;
-    font-size: x-large;
+    font-size: larger;
 }
 
 .btn-dato:active{

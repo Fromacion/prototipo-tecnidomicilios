@@ -23,7 +23,7 @@
                 <li><a href="#portafolio">Nuestos servicios</a></li>
                 <li><a href="#comentarios">comentarios</a></li>
                 <li><a href="#contacto">contacto</a></li>
-                <li><a href="login.html">Acceder</a></li>
+                <li><a target="_blank" href="login.html">Acceder</a></li>
             </ul>
         </nav>
     </header>
@@ -91,17 +91,17 @@
             <div class="mas-servicios">
                 <img class="img-servicios" src="img/service.jpg" alt="">
                 <br>
-                <button type="button" class="btn">Mantenimientos</button>                    
+                <button onclick="window.location.href='solisitar_servicio.html'" id="btnMantenimientos" type="button" class="btn">Mantenimientos</button>                    
             </div>
             <div class="mas-servicios">
                 <img class="img-servicios" src="img/service2.jpg" alt="">
                 <br>
-                <button type="button" class="btn">Rediseño</button>
+                <button onclick="window.location.href='solisitar_servicio.html'" id="btnRediseño" type="button" class="btn">Rediseño</button>
             </div>
             <div class="mas-servicios">
                 <img class="img-servicios" src="img/service3.jpg" alt="">
                 <br>   
-                <button type="button" class="btn">Tecnologia</button>
+                <button onclick="window.location.href='solisitar_servicio.html'" id="btnTecnologia" type="button" class="btn">Tecnologia</button>
             </div>
         </section>
 
@@ -156,11 +156,11 @@
                 </div>               
                 <form class="formulario">
                     <p>Contantanos para solucionar tus dudas.</p>
-                    <input class="dato" type="text" placeholder=" Nombre completo"><br>
-                    <input class="dato type="text" placeholder=" Correo electronico"><br>
-                    <input class="dato type="text" placeholder=" Numero de telefono"><br>
-                    <textarea class="dato name="text" id="text-a" cols="60" rows="5"></textarea><br>
-                    <button id="boton-dato" type="button" class="btn-dato">Enviar</button>
+                    <input id="nombreUs" class="dato" type="text" placeholder=" Nombre completo"><br>
+                    <input id="correoUs" class="dato type="text" placeholder=" Correo electronico"><br>
+                    <input id="telUs" class="dato type="text" placeholder=" Numero de telefono"><br>
+                    <textarea id="text-a" class="dato name="text" cols="60" rows="5"></textarea><br>
+                    <button id="botonDato" type="button" class="btn-dato" onclick="capComentario()">Enviar</button>
                 </form>
                 
                
