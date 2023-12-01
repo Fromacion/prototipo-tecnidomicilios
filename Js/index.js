@@ -118,3 +118,67 @@ function login(){
  }
 
  solicitudServi(btnMantenimientos)
+
+
+
+ // Registro de usuario
+
+ function registroUsuario() {
+    let id_usuario = document.getElementById("id-cliente").value;
+    let nombre_usu = document.getElementById("nombre").value;
+    let apellido_usu = document.getElementById("apellido").value;
+    let Contraseña_usu = document.getElementById("password").value;
+    let conf_contraseña = document.getElementById("validar-password").value;
+    let direccion_usu = document.getElementById("direccion").value;
+    let telefono_usu = document.getElementById("telefono").value;
+    let correo_usu = document.getElementById("correoUs").value;
+
+    if (nombre_usu == "") {
+        alert("Nombre es necesario!")
+        document.getElementById("nombre").focus();
+
+    }else if (apellido_usu == "") {
+        alert("Apellido es necesario!")
+        document.getElementById("apellido").focus();
+
+    }if (id_usuario == "") {
+        alert("Cedula es necesaria!")
+        document.getElementById("id-cliente").focus();
+
+    }else if (Contraseña_usu && conf_contraseña == ""){
+        alert("Contraseña es necesaria!")
+        document.getElementById("password").focus();
+        document.getElementById("validar-password").focus();
+        
+    }else if (Contraseña_usu != conf_contraseña){
+        alert("Las contraseñas no coninsiden")
+        document.getElementById("validar-password");
+
+    }else if (direccion_usu == "") {
+        alert("Direccion es necesaria!")
+        document.getElementById("direccion");
+
+    }else if(telefono_usu == "") {
+        alert("Telefono/Celular es necesaria!")
+        document.getElementById("telefono");
+
+    }else if(correo_usu == "") {
+        alert("Correo es necesario!")
+        document.getElementById("correoUs");
+
+    }else {
+        
+        document.getElementById("nombre").value = "";
+        document.getElementById("apellido").value = "";
+        document.getElementById("id-cliente").value = "";
+        document.getElementById("password").value = "";
+        document.getElementById("validar-password").value = "";
+        document.getElementById("direccion").value = "";
+        document.getElementById("telefono").value = "";
+        document.getElementById("correoUs").value = "";
+        document.getElementById("nombre").focus();
+        
+    }
+
+    alert(`${nombre_usu} Tu registro ha sido EXITOSO!`);
+}
