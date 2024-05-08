@@ -123,15 +123,15 @@ function login(){
 
  // Registro de usuario
 
- function registroUsuario() {
-    let id_usuario = document.getElementById("id-cliente").value;
-    let nombre_usu = document.getElementById("nombre").value;
-    let apellido_usu = document.getElementById("apellido").value;
-    let Contraseña_usu = document.getElementById("password").value;
-    let conf_contraseña = document.getElementById("validar-password").value;
-    let direccion_usu = document.getElementById("direccion").value;
-    let telefono_usu = document.getElementById("telefono").value;
-    let correo_usu = document.getElementById("correoUs").value;
+ const registroUsuario = function() {
+    const id_usuario = document.getElementById("id-cliente").value;
+    const nombre_usu = document.getElementById("nombre").value;
+    const apellido_usu = document.getElementById("apellido").value;
+    const Contraseña_usu = document.getElementById("password").value;
+    const conf_contraseña = document.getElementById("validar-password").value;
+    const direccion_usu = document.getElementById("direccion").value;
+    const telefono_usu = document.getElementById("telefono").value;
+    const correo_usu = document.getElementById("correoUs").value;
 
     if (nombre_usu == "") {
         alert("Nombre es necesario!")

@@ -185,10 +185,24 @@ input{
 
 }
 
-
-
-
 .btn-dato{
+	background-color: #48e;
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+}
+
+
+.advertencia {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
+/* .btn-dato{
     background-color: rgb(62, 153, 138);
     color: rgba(44, 5, 5, 0.752);
     text-decoration: none;
@@ -201,7 +215,7 @@ input{
     cursor: pointer;
     font-size: 15px;
     margin-top: 40px;
-}
+} */
 
 .btn-dato:hover{
     background-color: #20b2ab85;
